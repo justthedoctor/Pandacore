@@ -6,15 +6,15 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('FBC0B6DB'),
-  addressVersion: 0x30,
-  privKeyVersion: 0xb0,
+  magic: hex('fcc1b7dc'),
+  addressVersion: 0x37,
+  privKeyVersion: 0xb7,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488c42e,
   hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
-    hash: hex('E2BF047E7E5A191AA4EF34D314979DC9986E0F19251EDABA5940FD1FE365A712'),
-    merkle_root: hex('D9CED4ED1130F7B7FAAD9BE25323FFAFA33232A17C3EDF6CFD97BEE6BAFBDD97'),
+    hash: hex('68fad98bd07315eef904fa3bf4344a38cb4f05549f659272bad7b4e88961d4c5'),
+    merkle_root: hex('5ff70ada294e4a0bd2b90ce8498d35e56a4bfa8bd57cf3460ace5bd7c92456fd'),
     height: 0,
     nonce: 2084524493,
     version: 1,
@@ -23,11 +23,7 @@ exports.livenet = {
     bits: 504365040,
   },
   dnsSeeds: [
-    'dnsseed.litecointools.com',
-    'dnsseed.litecoinpool.org',
-    'dnsseed.ltc.xurious.com',
-    'dnsseed.koin-project.com',
-    'dnsseed.weminemnc.com'
+    'seeder.thepandacoin.net',
   ],
   defaultClientPort: 9333
 };
